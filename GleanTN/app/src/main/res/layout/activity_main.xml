@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.org.endhunger.gleantn.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/helloTextView"
+                android:text="@string/hello_TextView"
+                android:layout_margin="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/userNameTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:textAlignment="center"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/describe_your_product_please"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:layout_margin="15dp"/>
+
+
+        <EditText
+            android:id="@+id/editTextDescribe"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textAlignment="textStart"
+            android:gravity="start"
+            android:layout_margin="15dp"
+            android:inputType="text"
+            android:background="@color/colorPrimary"
+            />
+
+        <Button
+
+            android:id="@+id/SendButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/send_email"
+            android:textColor="@android:color/holo_red_light"
+            android:layout_gravity="bottom"
+            android:textSize="25sp" />
+
+        <Button
+
+            android:id="@+id/singOutButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/sign_out"
+            android:textColor="@android:color/holo_red_light"
+            android:layout_gravity="bottom"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+</RelativeLayout>
+

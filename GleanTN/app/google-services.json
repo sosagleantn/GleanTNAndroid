@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "431241114929",
+    "firebase_url": "https://gleantn-1794b.firebaseio.com",
+    "project_id": "gleantn-1794b",
+    "storage_bucket": "gleantn-1794b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431241114929:android:9e50dae1e378b770",
+        "android_client_info": {
+          "package_name": "com.org.endhunger.gleantn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "431241114929-damupobkav64ur64bv2okji8t7ti6j8d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.org.endhunger.gleantn",
+            "certificate_hash": "5321c05aedfbb3079c337d056129c97e093357fb"
+          }
+        },
+        {
+          "client_id": "431241114929-uv9gvb0vooint8icdfkcqt3ceo650jh6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEqsXV6gK8rn2NhcgHVxcRS8uUUi3U0-c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "431241114929-dvpt3e07j7r14n5ara1i9blq7qpb8taj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.saba.GleanTn"
+              }
+            },
+            {
+              "client_id": "431241114929-uv9gvb0vooint8icdfkcqt3ceo650jh6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
